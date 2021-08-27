@@ -14,12 +14,14 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatDialogModule } from '@angular/material/dialog';
-import { MatCheckboxModule } from '@angular/material/checkbox'
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { CharacterCardComponent } from './components/character-card/character-card.component'
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CharacterCardComponent
   ],
   imports: [
     BrowserModule,
