@@ -1,6 +1,8 @@
 import { Guid } from 'guid-typescript'; 
+import { Weapon } from './weapon.cl';
+import { Element } from './element.cl';
  
-export class Weapon {
+export class Character {
  
     public id: Guid;
     name : string = "";
